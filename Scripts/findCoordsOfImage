@@ -1,0 +1,20 @@
+<!-- coords calculater for an <area> element
+
+    <img src="ProfilePic.jpeg" style="width: 50%; height: 50%;" id="myImage">
+
+    <p id="coords"></p>
+
+<script>
+    const img = document.getElementById('myImage');
+    const coords = document.getElementById('coords');
+
+    img.addEventListener('click', function(e){
+        const rect = img.getBoundingClientRect();   // image position & size
+        const x = e.clientX - rect.left;            // X relative to image
+        const y = e.clientY - rect.top;             // Y relative to image
+        console.log(`X: ${x}, Y: ${y}`);
+        coords.innerText = `X: ${x}, Y: ${y}`;
+    });
+</script>
+
+-->
