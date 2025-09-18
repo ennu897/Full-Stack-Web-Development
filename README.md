@@ -2,7 +2,7 @@
 
 ---
 
-## 1. Reset Rules  
+## 1. Reset Guidelines  
 Always reset margin & padding:  
 
 * {
@@ -11,7 +11,7 @@ Always reset margin & padding:
   box-sizing: border-box; /* Better control of width & height */
 }
 
-## 2. Text Rules 
+## 2. Text Guidelines 
 h1-6 {
     line-height: 1.2;
     letter-spacing: -2px;
@@ -24,5 +24,12 @@ p {
 a{
     text-decoration: none;
 }
+
+## 3. Color Guidelines 
+Resources---
+Open Color
+tailwindcss
+    coolors
+
 
 
