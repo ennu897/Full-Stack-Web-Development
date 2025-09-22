@@ -29,7 +29,12 @@ a{
 Resources---
 Open Color
 tailwindcss
-    coolors
+coolors
 
 
 
+## 4. For Icons 
+IONICONS: https://ionic.io/ionicons
+
+## 5. For FONTS 
+GOOGLE: https://fonts.google.com/
