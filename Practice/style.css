@@ -1,5 +1,32 @@
+@font-face {
+    font-family: "alex";
+    src: url('./fonts/AlexBrush-Regular.woff2') format('woff2'), 
+        url('./fonts/AlexBrush-Regular.woff') format('woff');
+    font-weight: normal;;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "rubik";
+    src: url('./fonts/Rubik-Regular.woff2') format('woff2'), 
+        url('./fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 * {
     box-sizing: border-box;
+    margin: 0;;
+    padding: 0;;
+}
+
+body{
+    position: relative;
+    font-family: rubik, alex;
 }
 
 .flex-container {
@@ -10,6 +37,8 @@
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+
+    border: 1px solid;
 }
 
 .flex-1 {
@@ -89,4 +118,51 @@
 
 }
 
+
+
+
+.second-container {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid;
+}
+
+.second-container p {
+    margin: auto;
+    padding: 5px;
+
+}
+
+svg {
+    width: 200px;
+}
+
+circle {
+    fill: red;
+}
+
+table {
+    width: 600px;
+    margin-top: 50px;
+    border: 1px solid;
+    border-collapse: collapse;
+    
+    
+}
+
+th, td {
+    text-align: left;
+    padding: 5px;
+    border: 1px solid;
+}
+
+tr:nth-child(even){
+    background-color: skyblue;
+}
 
