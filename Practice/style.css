@@ -20,6 +20,20 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;;
+    padding: 0;;
+}
+
+body{
+    position: relative;
+    font-family: rubik, alex;
+    margin: 0;;
+    padding: 0;;
+}
+
+
+body {
+     position: relative;
 }
 
 .flex-container {
@@ -30,6 +44,9 @@
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+   
+
+    border: 1px solid;
 }
 
 .flex-1 {
