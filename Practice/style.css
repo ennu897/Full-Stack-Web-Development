@@ -20,13 +20,6 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;;
-    padding: 0;;
-}
-
-body{
-    position: relative;
-    font-family: rubik, alex;
 }
 
 .flex-container {
@@ -37,8 +30,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-
-    border: 1px solid;
 }
 
 .flex-1 {
@@ -166,3 +157,22 @@ tr:nth-child(even){
     background-color: skyblue;
 }
 
+
+
+.second-container {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid;
+}
+
+.second-container p {
+    margin: auto;
+    padding: 5px;
+
+}
